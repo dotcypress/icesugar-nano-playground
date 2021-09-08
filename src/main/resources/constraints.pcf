@@ -1,0 +1,41 @@
+set_io -nowarn clk              D1
+set_io -nowarn reset            E2
+set_io -nowarn io_led           B6
+
+# RS232
+set_io -nowarn io_uart_rxd      A3
+set_io -nowarn io_uart_txd      B3
+
+# PMOD 1
+set_io -nowarn io_pmod1_pin1    E2
+set_io -nowarn io_pmod1_pin2    D1
+set_io -nowarn io_pmod1_pin3    B1
+set_io -nowarn io_pmod1_pin4    A1
+
+# PMOD 2
+set_io -nowarn io_pmod2_pin1    B3
+set_io -nowarn io_pmod2_pin2    A3
+set_io -nowarn io_pmod2_pin3    B6
+set_io -nowarn io_pmod2_pin4    C5
+
+# PMOD 3
+set_io -nowarn io_pmod3_pin1    B4
+set_io -nowarn io_pmod3_pin2    B5
+set_io -nowarn io_pmod3_pin3    E1
+set_io -nowarn io_pmod3_pin4    B1
+set_io -nowarn io_pmod3_pin7    A1
+set_io -nowarn io_pmod3_pin8    C2
+set_io -nowarn io_pmod3_pin9    E3
+set_io -nowarn io_pmod3_pin10   C6
+
+# PMOD 3A
+set_io -nowarn io_pmod3a_pin1   B4
+set_io -nowarn io_pmod3a_pin2   B5
+set_io -nowarn io_pmod3a_pin3   E1
+set_io -nowarn io_pmod3a_pin4   B1
+
+# PMOD 3B
+set_io -nowarn io_pmod3b_pin1   A1
+set_io -nowarn io_pmod3b_pin2   C2
+set_io -nowarn io_pmod3b_pin3   E3
+set_io -nowarn io_pmod3b_pin4   C6
