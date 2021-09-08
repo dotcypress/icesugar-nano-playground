@@ -23,10 +23,10 @@ set_io -nowarn io_pmod3_pin1    B4
 set_io -nowarn io_pmod3_pin2    B5
 set_io -nowarn io_pmod3_pin3    E1
 set_io -nowarn io_pmod3_pin4    B1
-set_io -nowarn io_pmod3_pin7    A1
-set_io -nowarn io_pmod3_pin8    C2
-set_io -nowarn io_pmod3_pin9    E3
-set_io -nowarn io_pmod3_pin10   C6
+set_io -nowarn io_pmod3_pin7    C6
+set_io -nowarn io_pmod3_pin8    E3
+set_io -nowarn io_pmod3_pin9    C2
+set_io -nowarn io_pmod3_pin10   A1
 
 # PMOD 3A
 set_io -nowarn io_pmod3a_pin1   B4

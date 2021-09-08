@@ -1,4 +1,4 @@
-MODULE = Blinky
+MODULE = SevenSegmentDisplay
 BUILD_DIR = target/bitstream
 CONSTRAINTS = src/main/resources/constraints.pcf
 
@@ -16,7 +16,7 @@ bitstream:
 
 prog:
 	icesprog $(BUILD_DIR)/$(MODULE).bin
-	icesprog -c 4
+	icesprog -c 1
 
 clean:
 	sbt clean --supershell=never

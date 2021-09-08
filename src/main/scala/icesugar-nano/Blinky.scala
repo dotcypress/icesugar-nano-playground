@@ -16,16 +16,6 @@ case class Blinky() extends Component {
 
 object Blinky {
   def main(args: Array[String]) {
-    import java.nio.file._
-    val targetDirectory = Paths.get("target/bitstream")
-    if (!Files.exists(targetDirectory)) {
-      Files.createDirectory(targetDirectory)
-    }
-
-    val config = new SpinalConfig(
-      defaultClockDomainFrequency = FixedFrequency(8 MHz),
-      targetDirectory = targetDirectory.toString()
-    )
-    config.generateVerilog(new Blinky)
+    iCESugar.generate(new Blinky)
   }
 }
